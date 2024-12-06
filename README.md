@@ -4,7 +4,7 @@
 > Změnil jsem odkaz na stránku:  
 > [https://arcl01.github.io/quartz/](https://arcl01.github.io/quartz/)
 
-Toto je GitHub maturitního vaultu. Pokud neumíš s GitHubem, vůbec to nevadí, tady se nic zajímavého dít nebude. Pokud to půjde, budu dávat všechno na stránku, kde to bude „user friendly“ (jediné, co bych doporučil, je přečíst si [markdown editor](#✏️-markdown-editor) a [markdown syntax](#📜-markdown-syntax)). Avšak pokud umíš s GitHubem, nebo se rád něčemu přiučíš, níže v tomto textu najdeš pár zajímavých věcí.
+Toto je GitHub maturitního vaultu. Pokud neumíš s GitHubem, vůbec to nevadí, tady se nic zajímavého dít nebude. Pokud to půjde, budu dávat všechno na stránku, kde to bude „user friendly“ (jediné, co bych doporučil, je přečíst si [markdown editor](#%EF%B8%8F-markdown-editor) a [markdown syntax](#-markdown-syntax)). Avšak pokud umíš s GitHubem, nebo se rád něčemu přiučíš, níže v tomto textu najdeš pár zajímavých věcí.
 
 ## ✏️ Markdown editor
 > [!IMPORTANT]
