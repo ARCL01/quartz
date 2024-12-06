@@ -92,6 +92,6 @@ Když upravíš soubory, nemusíš hned vytvářet pull request. Můžeš si jic
 ### GitHub (GUI)
 Na toto nemám tutoriál, ale hádám, že postup bude podobný. Začátek je stejný – vytvoř si fork, který si nakopíruješ do PC a tam ho edituješ.
 
-##🛠️ Pro správce
+## 🛠️ Pro správce
 Buildování by mělo proběhnout při každém pushi. Teoreticky, když se něco změní v souborech pro webovku, mělo by se to znovu buildnout. Mám to otestováno jen s Markdown soubory. Nevím, jestli to samé funguje pro program webu. Pokud je něco, co mění program, mělo by se to buildnout lokálně a pushnout na Git. Pokud jde jen o MD soubory, stačí to udělat na GitHubu.
 - Command pro update `npx quartz sync`
