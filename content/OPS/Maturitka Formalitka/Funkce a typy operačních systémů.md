@@ -11,6 +11,8 @@
 	- Zahrnují veškerý HW, který tvoří výpočetní systém. *(RAM, CPU, SSD disk, HDD disk)*, dále zde také patří I/O *(klávesnice, myš, monitor, tiskárna)*
 - ### **Logické prostředky výpočetního systému**
 	- Zde spadá veškerý software který tvoří výpočetní systém. Mezi hlavní prostředky patří samotný operační systém, ten zajišťuje správu paměti, řízení procesů, správu souborů, I/Os. Dále zde spadají uživatelské programy, pro jejichž fungování je potřeba OS.
+- ### Operační systém výpočetního systému
+	- Operační systém je klíčovým logickým prostředkem výpočetního systému. Slouží jako rozhraní mezi fyzickými a logickými prostředky a zajišťuje efektivní správu hardwarových zdrojů a běh softwaru. Jeho hlavní funkcí je umožnit spolupráci uživatelských programů s hardwarem výpočetního systému.
 ---
 ## Definice a funkce operačních systémů
 - Vysvětli funkce operačního systému
@@ -36,6 +38,8 @@
             - přiděluje/odebírá zdroje procesům
             - umožňuje mezi-procesovou komunikaci
             - eviduje procesy
+            - *Task Manager - Windows*
+            - *top/htop - GNU/Linux*
         - #### paměť
             - defragmentuje paměť
             - přiřazuje/odebírá procesům paměť
@@ -43,26 +47,37 @@
             - spravuje vnitřní paměť
             - zabezpečuje paměť
             - umožňuje procesům sdílet paměť
+            - *pagefile.sys - Windows*
+            - *swap partition - GNU/Linux*
         - #### periferie
             - přiřazuje/odebírá procesům přístup k I/Os
             - spravuje I/Os
             - řeší kolize
             - řeší přerušení
             - monitoruje stavy periferii
+            - *Device Manager - Windows*
+            - *udev - GNU/Linux*
         - #### uložiště
             - spravuje soubory a souborové systémy
             - organizuje data
+            - *NTFS - Windows*
+            - EXT4, BTRFS - GNU/Linux
 - ### **Z hlediska aplikací**
     - Operační sytému spravuje
         - #### API
             - slouží aplikacím pro komunikaci s HW výpočetního systému _(práce s uložištěm, pamětí, vytváření dceřiných procesů,...)_
+            - *WinAPI - Windows*
+            - *POSIX API - GNU/Linux*
         - #### uživatelské rozhraní
             - GUI
             - CLI
+            - *GNOME, KDE, bash, zsh - GNU/Linux*
 - ### **Z hlediska programátora**
     - Operační sytému spravuje
         - #### knihovny a API
             - slouží pro jednoduššímu přístup k HW výpočetního systému a správě systémových prostředků
+            - *.NET - Windows*
+            - *glibc - GNU/Linux*
 - ### **Z hlediska uživatele**
     - Operační sytému spravuje
         - #### uživatelské účty
@@ -110,8 +125,23 @@
         - LINUX
         - WIN s NT jádrem
 - ### **Podle uživatelského rozraní**
+	- #### GUI
+		- Windows NT, macOS
+	- #### CLI
+		- Serverové distribuce GNU/Linux, Windows server *(bez GUI)*
 - ### **Podle role v počítačové síti**
     - #### Desktopové OS
+	    - Windows
     - #### Serverové OS
+	    - Windows server, Ubuntu server, Red Hat
 - ### **Realtime operační systémy**
+	- Poskytuje deterministické *(předvídatelné)* odpovědi v pěvně stanoveném čase
+	- Používá se v oblastech kde je důležité načasování vykonání procesů
+	- #### Hard RTOS
+		- Musí **vždy** splnit časová omezení
+		- VxWorks
+		- QNX
+	- #### Soft RTOS
+		- Příležitostná zpoždění jsou akceptovatelná
+		- Linux s RT jádrem
 ---
