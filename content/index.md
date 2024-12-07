@@ -36,11 +36,14 @@ Pokud najdeš chybu nebo nesrovnalost, klikneš zde [GitHub](https://github.com/
 
 ## ✨ Change Log
 > [!todo] **Aktuální**
-> ### 3.12.2024
-> - Přídání sekce komentářů (konec stránky)
-> - Zveřejnení GitHubu
-> - Opravení linků na GitHub v tomto souboru
-> - Aktualizace týdenního rozpisu
+> ### 7.12.2024
+> - Rozšíření první otázky v OPSkách
+
+### 3.12.2024
+- Přídání sekce komentářů (konec stránky)
+- Zveřejnení GitHubu
+- Opravení linků na GitHub v tomto souboru
+- Aktualizace týdenního rozpisu
 
 ### 2.12.2024
 - Aktualizace týdenního rozpisu
