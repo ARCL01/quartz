@@ -38,7 +38,7 @@ Pokud najdeš chybu nebo nesrovnalost, klikneš zde [GitHub](https://github.com/
 > [!todo] **Aktuální**
 > ### 7.12.2024
 > - Rozšíření první otázky v OPSkách
-> - Přidáno zasílání zpráv na Discord
+> - Přidán Webhook na Discord channel
 
 ### 3.12.2024
 - Přídání sekce komentářů (konec stránky)
