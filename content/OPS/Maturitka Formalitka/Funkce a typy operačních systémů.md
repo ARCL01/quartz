@@ -1,9 +1,13 @@
 #hidden 
+# ![[OPS/Maturitka Formalitka/Attachments/funkce a typy OS.png]]
+
 ## Definice a funkce operačních systémů
 - Definuj operační systém výpočetního systému s využitím pojmů
 	- Výpočetní systém
 	- Fyzické prostředky výpočetního systému
 	- Logické prostředky výpočetního systému
+### Obrázek k otázce
+![[OPS/Maturitka Formalitka/Attachments/Výpočetní systém.png]]
 ## Odpověď
 - ### **Výpočetní systém**
 	- Skládá se z hardware *(fyz. prostředků)* a softwaru *(log. prostředků)*, tyto společně umožňují provádění výpočtů, zpracování dat atd.
